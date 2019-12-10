@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="beadando.xsl"?>
+<alkalmazasfejlesztes xmlns="beadando" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="beadando beadando.xsd ">
+    
+    <felhasznalok>
+        <felhasznalo fkod="0">
+            <nev>Utry Máté</nev>
+            <felhasznalonev>utrymate</felhasznalonev>
+        </felhasznalo>
+        <felhasznalo fkod="1">
+            <nev>Csabai Tibor</nev>
+            <felhasznalonev>tibikepower</felhasznalonev>
+        </felhasznalo>
+        <felhasznalo fkod="2">
+            <nev>Felhaszná Lóránt</nev>
+            <felhasznalonev>usernamelori</felhasznalonev>
+        </felhasznalo>
+        <felhasznalo fkod="3">
+            <nev>Us Ernő</nev>
+            <felhasznalonev>ernokeasd</felhasznalonev>
+        </felhasznalo>
+    </felhasznalok>
+    
+    <megrendelok>
+        <megrendelo mkod="LOLO-123" fkod="0">
+            <nev>Rende Lőrinc</nev>
+            <telefon>20 123 4567</telefon>
+        </megrendelo>
+        <megrendelo mkod="ORB-1" fkod="0">
+            <nev>Megbíz Orbán</nev>
+            <telefon>30 123 4567</telefon>
+        </megrendelo>
+        <megrendelo mkod="FA-52" fkod="1">
+            <nev>Fa Szabolcs</nev>
+            <telefon>70 123 4567</telefon>
+        </megrendelo>
+        <megrendelo mkod="LAJ-05" fkod="1">
+            <nev>Lajos</nev>
+            <telefon>20 111 1111</telefon>
+        </megrendelo>
+        <megrendelo mkod="NAGY-47352" fkod="2">
+            <nev>Nagy Attila</nev>
+            <telefon>30 111 1111</telefon>
+        </megrendelo>
+        <megrendelo mkod="KRISZ-123" fkod="3">
+            <nev>Nagy Krisztián</nev>
+            <telefon>70 111 1111</telefon>
+        </megrendelo>
+    </megrendelok>
+    
+    <alkalmazasok>
+        <alkalmazas akod="0" mkod="LOLO-123">
+            <nev>GTA 5</nev>
+            <nyelv>CSharp</nyelv>
+        </alkalmazas>
+        <alkalmazas akod="1" mkod="LOLO-123">
+            <nev>Neptun</nev>
+            <nyelv>Java</nyelv>
+        </alkalmazas>
+        <alkalmazas akod="2" mkod="LOLO-123">
+            <nev>Bajusz</nev>
+            <nyelv>PHP</nyelv>
+        </alkalmazas>
+        <alkalmazas akod="3" mkod="ORB-1">
+            <nev>Goat simulator</nev>
+            <nyelv>Java</nyelv>
+        </alkalmazas>
+        <alkalmazas akod="4" mkod="FA-52">
+            <nev>Windows XP</nev>
+            <nyelv>HTML</nyelv>
+        </alkalmazas>
+        <alkalmazas akod="5" mkod="NAGY-47352">
+            <nev>Ultimate Chess Game</nev>
+            <nyelv>HTML</nyelv>
+        </alkalmazas>
+        <alkalmazas akod="6" mkod="LAJ-05">
+            <nev>Go</nev>
+            <nyelv>PHP</nyelv>
+        </alkalmazas>
+        <alkalmazas akod="7" mkod="KRISZ-123">
+            <nev>Uncharted 4</nev>
+            <nyelv>CSharp</nyelv>
+        </alkalmazas>
+    </alkalmazasok>
+    
+    <kivitelezesek>
+        <kivitelezes akod="1" szkod="1">
+            <datum>2004</datum>
+        </kivitelezes>
+        <kivitelezes akod="0" szkod="0">
+            <datum>2006</datum>
+        </kivitelezes>
+        <kivitelezes akod="3" szkod="0">
+            <datum>2010</datum>
+        </kivitelezes>
+        <kivitelezes akod="11" szkod="0">
+            <datum>2011</datum>
+        </kivitelezes>
+        <kivitelezes akod="5" szkod="1">
+            <datum>2003</datum>
+        </kivitelezes>
+        <kivitelezes akod="2" szkod="2">
+            <datum>2005</datum>
+        </kivitelezes>
+        <kivitelezes akod="9" szkod="2">
+            <datum>2012</datum>
+        </kivitelezes>
+        <kivitelezes akod="3" szkod="3">
+            <datum>2015</datum>
+        </kivitelezes>
+        <kivitelezes akod="8" szkod="3">
+            <datum>2016</datum>
+        </kivitelezes>
+        <kivitelezes akod="6" szkod="3">
+            <datum>2018</datum>
+        </kivitelezes>
+    </kivitelezesek>
+    
+    <szoftverfejlesztok>
+        <szoftverfejleszto szkod="0">
+            <nev>Zolika</nev>
+            <lakcim>
+                <varos>Onga</varos>
+                <utca>Kossuth Lajos</utca>
+                <hazszam>45</hazszam>
+            </lakcim>
+        </szoftverfejleszto>
+        <szoftverfejleszto szkod="1">
+            <nev>Fejlesz Török</nev>
+            <lakcim>
+                <varos>Ankara</varos>
+                <utca>Muszlim</utca>
+                <hazszam>43</hazszam>
+            </lakcim>
+        </szoftverfejleszto>
+        <szoftverfejleszto szkod="2">
+            <nev>Teszt Elek</nev>
+            <lakcim>
+                <varos>Budapest</varos>
+                <utca>Lajos</utca>
+                <hazszam>123</hazszam>
+            </lakcim>
+        </szoftverfejleszto>
+        <szoftverfejleszto szkod="3">
+            <nev>Bill Gates</nev>
+            <lakcim>
+                <varos>California</varos>
+                <utca>Bill Gates street</utca>
+                <hazszam>222</hazszam>
+            </lakcim>
+        </szoftverfejleszto>
+    </szoftverfejlesztok>
+    
+</alkalmazasfejlesztes>
